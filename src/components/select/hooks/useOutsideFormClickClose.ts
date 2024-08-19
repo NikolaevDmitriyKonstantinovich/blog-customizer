@@ -7,7 +7,7 @@ type UseOutsideClickClose = {
 	rootRef: React.RefObject<HTMLDivElement>;
 };
 
-export const useOutsideClickClose = ({
+export const useOutsideFormClickClose = ({
 	isOpen,
 	rootRef,
 	onClose,

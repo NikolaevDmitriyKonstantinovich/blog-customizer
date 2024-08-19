@@ -18,6 +18,7 @@ const App = () => {
 	const [state, setState] = useState(defaultArticleState);
 	//завести состояние статьи и передать defaultstate
 	return (
+		<main>
 		<div
 			className={clsx(styles.main)}
 			style={
@@ -32,6 +33,7 @@ const App = () => {
 			<ArticleParamsForm articleState={state} setArticleState={setState}/>
 			<Article />
 		</div>
+		</main>
 	);
 };
 
